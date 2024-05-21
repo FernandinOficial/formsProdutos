@@ -6,6 +6,29 @@
         exit;
     }
 
+    if(isset($_POST["nome_prod"]) && isset($_POST["desc_prod"]) && isset($_POST["peso_prod"]) && isset($_POST["data_prod"]) && isset($_POST["val_prod"])) 
+    {
+        if(empty($_POST["nome_prod"]))
+        {
+            echo "Nome do Produto Campo Vazio";
+        }
+        else if(empty($_POST["desc_prod"]))
+        {
+            echo "Descrição Campo Vazio";
+        }
+        else if(empty($_POST["peso_prod"]))
+        {
+            echo "Peso do Produto Campo vazio";
+        }
+        else if(empty($_POST["data_prod"]))
+        {
+            echo "Data do Produto Campo vazio";
+        }
+        else if(empty($_POST["val_prod"]))
+        {
+            echo "Valor do produto Campo vazio";
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

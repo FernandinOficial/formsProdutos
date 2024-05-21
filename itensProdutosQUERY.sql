@@ -14,6 +14,6 @@ USE db_supermercado;
 
 -- SELECT * FROM produtos;
 
-/*INSERT INTO produtos (nome_prod, desc_prod, peso_prod, data_prod, val_prod) VALUES ('Papel Higienico', 'Esmeralda papel higienico SuperFofo', 'kg', '2023-11-10', 12.5);*/
+-- INSERT INTO produtos (nome_prod, desc_prod, peso_prod, data_prod, val_prod) VALUES ('Papel Higienico', 'Esmeralda papel higienico SuperFofo', 'kg', '2023-11-10', 12.5);
+-- INSERT INTO produtos (nome_prod, desc_prod, peso_prod, data_prod, val_prod) VALUES ('Gilete', 'Gilete Cut master', 'uni', '2024-03-10', 20.5);
 
-INSERT INTO produtos (nome_prod, desc_prod, peso_prod, data_prod, val_prod) VALUES ('Gilete master cut', 'Esmeralda papel higienico SuperFofo', 'kg', '2023-11-10', 12.5);
