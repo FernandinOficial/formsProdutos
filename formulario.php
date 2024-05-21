@@ -11,22 +11,27 @@
         if(empty($_POST["nome_prod"]))
         {
             echo "Nome do Produto Campo Vazio";
+            exit;   //porem tem que alterar com return
         }
         else if(empty($_POST["desc_prod"]))
         {
             echo "Descrição Campo Vazio";
+            exit;
         }
         else if(empty($_POST["peso_prod"]))
         {
             echo "Peso do Produto Campo vazio";
+            exit;
         }
         else if(empty($_POST["data_prod"]))
         {
-            echo "Data do Produto Campo vazio";
+            echo "Data de Entrega Campo vazio";
+            exit;
         }
         else if(empty($_POST["val_prod"]))
         {
             echo "Valor do produto Campo vazio";
+            exit;
         }
     }
 ?>
